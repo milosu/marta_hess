@@ -1,2 +1,2 @@
-# marta_hess
-Marta Hess - Stomatolog
+# Marta Hess
+Stomatolog
