@@ -126,4 +126,4 @@ gulp.task ( 'watch', function () {
 });
 
 // Default task that includes fonts and other tasks in single run
-gulp.task('default', ['sass', 'javascript', 'fonts', 'images']);
+gulp.task('default', ['sass', 'javascript', 'images']);
