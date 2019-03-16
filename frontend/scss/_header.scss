@@ -25,11 +25,22 @@
   }
 }
 
-@include media-breakpoint-down(xs) { 
+@include media-breakpoint-down(sm) { 
  
     .btn-onama{
       margin-top: 20px;
       display: block;
     }
+
  
+ }
+
+ @include media-breakpoint-down(md){
+  .title-header{
+      font-size: 22pt;
+    }
+
+    .subtitle-header{
+      font-size: 12pt;
+    }
  }
