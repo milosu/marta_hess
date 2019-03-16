@@ -1,0 +1,16 @@
+footer{
+  background: $primary;
+  background: -moz-linear-gradient(45deg, #10a8e0 0%, #33dbc4 100%);
+  background: -webkit-linear-gradient(45deg, #10a8e0 0%, #33dbc4 100%);
+  background: linear-gradient(45deg, #10a8e0 0%, #33dbc4 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10a8e0', endColorstr='#33dbc4',GradientType=1 );
+}
+
+.footer-copyright{
+  background: #0595CA;
+ color: #c4c4c4;
+ text-align: center;
+ padding: 13px 0;
+ padding-top: 10px; 
+ margin-top: 20px;
+}
