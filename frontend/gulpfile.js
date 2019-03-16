@@ -72,7 +72,8 @@ gulp.task('javascript', function () {
     './node_modules/bootstrap-cookie-alert/cookiealert-standalone.js',
     './node_modules/featherlight/src/featherlight.js',
     './node_modules/featherlight/src/featherlight.gallery.js',
-    './javascript/custom.js'
+    './javascript/custom.js',
+    './javascript/script.js'
   ];
   return gulp.src(jsOrder)
       .pipe(concat('main.js'))

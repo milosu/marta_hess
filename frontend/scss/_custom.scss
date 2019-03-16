@@ -1,1 +1,15 @@
-$gray: #c4c4c4;
+$gray: #9b9b9b;
+$primary: #11A9E0;
+$danger: #fff;
+$border-radius: 50px;
+$spacer: 1rem;
+
+// Adding spacer sizes
+$spacers: (
+  6: ($spacer * 6),
+  7: ($spacer * 12)
+);
+
+*{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif ;
+}

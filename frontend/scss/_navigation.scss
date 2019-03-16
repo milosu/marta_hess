@@ -9,8 +9,14 @@
  
  }
 
- .active-nav{
-   border-top: solid 2px #000;
+
+
+ .gps-location{
+   color: $gray;
+   span{
+     color: $primary;
+     font-weight: bold;
+   }
  }
 
  .social-icon{
