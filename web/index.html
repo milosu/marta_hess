@@ -112,10 +112,10 @@
 </section>
 
 <!--Section: Contact v.2-->
-<section id="contact" class="container mb-4">
+<section id="contact" class="container my-6">
   <!-- Form row -->
   <div class="row">
-    <div class="col-md-9 mb-md-0 mb-5">
+    <div class="col-md-8 mb-md-0 mb-5">
       <p class="h1">Kontaktirajte nas</p>
       <!-- Form -->
       <form id="contact-form" name="contact-form" action="mail/mail.php" method="POST">
@@ -123,13 +123,13 @@
           <div class="col-md-6">
             <div class="md-form mb-0">
               <!-- Your name -->
-              <input type="text" id="name" placeholder="Your name" name="name" class=" mt-3 form-control">
+              <input type="text" id="name" placeholder="Ime i prezime" name="name" class=" mt-3 form-control">
             </div>
           </div>
           <div class="col-md-6">
             <div class="md-form mb-0">
               <!-- Your e-mail -->
-              <input type="e-mail" id="email" placeholder="Your email" name="email" class=" mt-3 form-control">
+              <input type="e-mail" id="email" placeholder="E-mail" name="email" class=" mt-3 form-control">
             </div>
           </div>
         </div>
@@ -137,39 +137,39 @@
           <div class="col-md-12">
             <div class="md-form mb-0">
               <!-- Subject -->
-              <input type="text" id="subject" placeholder="Subject" name="subject" class=" mt-3 form-control">
+              <input type="text" id="subject" placeholder="Naslov" name="subject" class=" mt-3 form-control">
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
             <div class="md-form">
-              <textarea type="text" placeholder="Your message" id="message" name="message" rows="2"
+              <textarea type="text" placeholder="Tekst poruke" id="message" name="message" rows="2"
                 class=" mt-3 form-control md-textarea"></textarea>
             </div>
           </div>
         </div>
       </form>
-      <div class="text-center text-md-left">
-        <a style="cursor: pointer;" class="btn px-5 mt-3 btn-primary" onclick="validateForm();">Send</a>
+      <div class="text-center text-white text-md-left">
+        <a style="cursor: pointer;" class="btn px-5 mt-3 btn-send" onclick="validateForm();">Pošalji</a>
       </div>
       <div id="status"></div>
     </div>
     <!-- Additional informations -->
-    <div class="col-md-3 text-center">
+    <div class="col-md-4 text-center">
       <p class="h1">Informacije</p>
-      <ul class="list-unstyled mb-0">
+      <ul class="list-unstyled pt-3">
         <!-- Addres -->
-        <li><img src="images/location.png"></i>
-          <p>Novi Sad, Bulevear Oslobodjenja 66</p>
+        <li><img src="images/placeholder.png"></i>
+          <p>Novi Sad, Bulevear Oslobođenja 66</p>
         </li>
         <!-- Phone -->
-        <li><img src="images/phone.png"></i>
-          <p>+381 21 63 21 881</p>
+        <li><img src="images/phone-call.png"></i>
+          <p>+381 63 86 53 694<br>+381 63 86 53 694</p>
         </li>
         <!-- E-mail -->
-        <li><img src="images/envelope.png"></i>
-          <p>contact@martahess.com</p>
+        <li><img src="images/message-1.png"></i>
+          <p>kontakt@martahess.com</p>
         </li>
       </ul>
     </div>

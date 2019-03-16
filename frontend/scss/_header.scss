@@ -1,5 +1,5 @@
 .hero{
-  background: url('../images/hero-img.png') no-repeat center left;
+  background: url('../images/hero-img.png') no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 60vh;
@@ -18,9 +18,18 @@
 .btn-zakazi{
   font-weight: bold;
   color: $primary;
-  border: solid 3px;
+  border: solid 3px $white;
   &:hover{
     background: none;
     color: $white;
   }
 }
+
+@include media-breakpoint-down(xs) { 
+ 
+    .btn-onama{
+      margin-top: 20px;
+      display: block;
+    }
+ 
+ }
