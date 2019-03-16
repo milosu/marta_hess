@@ -1,0 +1,30 @@
+
+@include media-breakpoint-between(xs, sm) { 
+ 
+    .sm-position-center{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+ 
+ }
+
+
+
+ .gps-location{
+   color: $gray;
+   span{
+     color: $primary;
+     font-weight: bold;
+   }
+ }
+
+ .social-icon{
+   opacity: 0.5;
+   padding: 0 5px;
+   &:hover{
+     opacity: 1;
+   }
+ }
+
+
